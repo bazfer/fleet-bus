@@ -6,13 +6,13 @@ own CI, in its own language, against its own validator. It exists because the
 schema constrains *shape* and the SPEC constrains *behaviour*, and neither one
 catches two validators that read the same sentence differently.
 
-Today there are two implementations:
+Today there are three implementations:
 
 | Implementation | Repo | Entry point |
 |---|---|---|
 | TypeScript | `artifice-ia/fleet-bus` | `validateEnvelope` in `src/fleet-bus.ts` |
 | Python | `artifice-ia/codex-container` | `validate_envelope` in `bus.py` |
-| Python | `bazfer/yugo` | `validate_envelope` in `fleet_bus.py` |
+| Python | `artifice-ia/yugo` | `validate_envelope` in `fleet_bus.py` |
 
 ## What a runner must do
 
