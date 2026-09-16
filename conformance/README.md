@@ -12,6 +12,7 @@ Today there are two implementations:
 |---|---|---|
 | TypeScript | `artifice-ia/fleet-bus` | `validateEnvelope` in `src/fleet-bus.ts` |
 | Python | `artifice-ia/codex-container` | `validate_envelope` in `bus.py` |
+| Python | `bazfer/yugo` | `validate_envelope` in `fleet_bus.py` |
 
 ## What a runner must do
 
